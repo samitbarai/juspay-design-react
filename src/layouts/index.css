@@ -18,6 +18,7 @@ body {
     height: 920px;
     background-size: cover;
     background-position: center;
+    position: relative;
   }
 
   .HeroGroup {
@@ -91,3 +92,9 @@ body {
     }
 }
   
+
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
